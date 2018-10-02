@@ -16,7 +16,7 @@
   <span id="zil"> zil:</span>
   <script>
       $.ajax({
-          type: 'post',
+          type: 'post',//不错
           url: '/huobi', //这里是接收数据的程序
           dataType: 'json', //服务器返回的数据类型 可选XML ,Json jsonp script html text等
           success: function(data) {
