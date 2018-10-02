@@ -12,7 +12,7 @@ import java.util.Timer;
 
 
 /**
- * 此类用于开启定时采集，设置时间为10秒抓取一次
+ * 此类用于开启定时采集，设置时间为10秒抓取一次ok
  */
 @WebServlet(name = "OpenServlet",urlPatterns = "/open")
 public class OpenServlet extends HttpServlet {
